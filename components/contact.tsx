@@ -19,7 +19,7 @@ export default function Contact() {
                 <dl className="mt-2 text-base text-gray-50">
                   <div className="mt-1">
                     <dt className="sr-only">Telefono</dt>
-                    <dd>+1 (555) 123-4567</dd>
+                    <dd>+39 3758026800</dd>
                   </div>
                 </dl>
               </div>
@@ -46,7 +46,7 @@ export default function Contact() {
                 <dl className="mt-2 text-base text-gray-50 ">
                   <div className="mt-1">
                     <dt className="sr-only">Whatsapp</dt>
-                    <dd>+1 (555) 123-4567</dd>
+                    <dd>+39 3758026800</dd>
                   </div>
                 </dl>
               </div>

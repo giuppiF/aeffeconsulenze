@@ -8,6 +8,8 @@ import { Logo } from "./logo";
 const navigation = [
   { name: "Servizi", href: "#services" },
   { name: "Chi siamo", href: "#ourstory" },
+  { name: "Come funziona", href: "#how" },
+  { name: "Prezzi", href: "#prices" },
   { name: "Contatti", href: "#contact" },
 ];
 
@@ -116,9 +118,10 @@ export default function Hero() {
             <div>
               <Logo className="w-full h-32 text-sky-700" />
               <p className="mt-6 text-lg leading-8 text-gray-600 sm:text-center">
-                Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
-                lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat
-                fugiat aliqua.
+                Offriamo una{" "}
+                <span className="font-bold">soluzione completa</span> per la
+                gestione amministrativa del
+                <span className="font-bold"> lavoro domestico</span>.
               </p>
               <div className="mt-8 flex gap-x-4 sm:justify-center">
                 <a

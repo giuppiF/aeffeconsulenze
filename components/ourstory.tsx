@@ -50,13 +50,12 @@ export default function OurStory() {
             </svg>
             <div className="relative mx-auto max-w-prose text-base lg:max-w-none">
               <figure>
-                <div className="aspect-w-12 aspect-h-7 lg:aspect-none">
+                <div className="aspect-w-3 aspect-h-3 ">
                   <img
-                    className="rounded-lg object-cover object-center shadow-lg"
+                    className="rounded-lg object-cover  object-center shadow-lg"
                     src="/experts.jpeg"
                     alt="Whitney leaning against a railing on a downtown street"
-                    width={1184}
-                    height={1376}
+                    width={300}
                   />
                 </div>
               </figure>
@@ -65,40 +64,27 @@ export default function OurStory() {
           <div className="mt-8 lg:mt-0">
             <div className="mx-auto max-w-prose text-base lg:max-w-none">
               <p className="text-lg text-gray-500">
-                Sagittis scelerisque nulla cursus in enim consectetur quam.
-                Dictum urna sed consectetur neque tristique pellentesque.
-                Blandit amet, sed aenean erat arcu morbi.
+                Siamo specializzati nella gestione amministrativa del lavoro
+                domestico.
+              </p>
+              <p className="text-lg text-gray-500">
+                Ci avvaliamo della collaborazione di impiegate qualificate e di
+                consulenti del lavoro con esperienza ventennale, per fornirti la
+                competenza necessaria e soluzioni immediate alle tue
+                problematiche.
               </p>
             </div>
             <div className="prose prose-indigo mx-auto mt-5 text-gray-500 lg:col-start-1 lg:row-start-1 lg:max-w-none">
-              <p>
-                Sollicitudin tristique eros erat odio sed vitae, consequat
-                turpis elementum. Lorem nibh vel, eget pretium arcu vitae. Eros
-                eu viverra donec ut volutpat donec laoreet quam urna.
+              <p className="text-lg text-gray-500">
+                Abbiamo scelto un software specializzato esclusivamente al
+                lavoro domestico in modo da offrirti un servizio mirato e
+                qualificato.
               </p>
-              <p>
-                Bibendum eu nulla feugiat justo, elit adipiscing. Ut tristique
-                sit nisi lorem pulvinar. Urna, laoreet fusce nibh leo. Dictum et
-                et et sit. Faucibus sed non gravida lectus dignissim imperdiet
-                a.
-              </p>
-              <p>
-                Dictum magnis risus phasellus vitae quam morbi. Quis lorem lorem
-                arcu, metus, egestas netus cursus. In.
-              </p>
-              <ul role="list">
-                <li>Quis elit egestas venenatis mattis dignissim.</li>
-                <li>
-                  Cras cras lobortis vitae vivamus ultricies facilisis tempus.
-                </li>
-                <li>Orci in sit morbi dignissim metus diam arcu pretium.</li>
-              </ul>
-              <p>
-                Rhoncus nisl, libero egestas diam fermentum dui. At quis
-                tincidunt vel ultricies. Vulputate aliquet velit faucibus
-                semper. Pellentesque in venenatis vestibulum consectetur nibh
-                id. In id ut tempus egestas. Enim sit aliquam nec, a. Morbi enim
-                fermentum lacus in. Viverra.
+              <p className="text-lg text-gray-500">
+                I nostri clienti non sono solo numeri! Crediamo, infatti, che
+                solo esaminando ogni situazione con la giusta attenzione
+                possiamo rendere più semplice la gestione del rapporto con i
+                tuoi collaboratori familiari.
               </p>
             </div>
           </div>

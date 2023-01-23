@@ -12,8 +12,8 @@ export default function Sentence() {
               <div className="aspect-w-10 aspect-h-6 overflow-hidden rounded-xl shadow-xl sm:aspect-w-16 sm:aspect-h-7 lg:aspect-none lg:h-full">
                 <img
                   className="object-cover lg:h-full lg:w-full"
-src="me2.jpeg"               
-   alt=""
+                  src="me2.jpeg"
+                  alt=""
                 />
               </div>
             </div>
@@ -30,10 +30,11 @@ src="me2.jpeg"
                   >
                     <path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z" />
                   </svg>
-                  <p className="mt-6 text-2xl font-medium text-white">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                    urna nulla vitae laoreet augue. Amet feugiat est integer
-                    dolor auctor adipiscing nunc usrna, sit.
+                  <p className="mt-6 text-xl font-medium text-white">
+                    I nostri clienti non sono solo numeri! Crediamo, infatti,
+                    che solo esaminando ogni situazione con la giusta attenzione
+                    possiamo rendere più semplice la gestione del rapporto con i
+                    tuoi collaboratori familiari.
                   </p>
                 </div>
                 <footer className="mt-6">
