@@ -16,7 +16,7 @@ export default function How() {
             Come funziona
           </h2>
           <p className="mt-5 text-xl text-gray-50">
-            E' sufficiente un telefono o una mail per trasmetterci la
+            È sufficiente un telefono o una mail per trasmetterci la
             documentazione necessaria agli adempimenti per la gestione del
             servizio. Senza troppa fatica puoi inviarci i documenti tramite il
             canale whatsapp del vostro cellulare, o tramite mail.
