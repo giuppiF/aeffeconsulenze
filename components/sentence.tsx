@@ -33,7 +33,7 @@ src="me2.jpeg"
                   <p className="mt-6 text-2xl font-medium text-white">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
                     urna nulla vitae laoreet augue. Amet feugiat est integer
-                    dolor auctor adipiscing nunc urna, sit.
+                    dolor auctor adipiscing nunc usrna, sit.
                   </p>
                 </div>
                 <footer className="mt-6">
