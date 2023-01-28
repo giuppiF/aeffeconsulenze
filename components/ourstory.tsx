@@ -1,10 +1,10 @@
 import { CameraIcon } from "@heroicons/react/20/solid";
+import { Background } from "./background";
 
 export default function OurStory() {
   return (
-    <div className="overflow-hidden bg-white" id="ourstory">
+    <div className="overflow-hidden bg-white isolate relative" id="ourstory">
       <div className="relative mx-auto max-w-7xl py-16 px-6 lg:px-8">
-        <div className="absolute top-0 bottom-0 left-3/4 hidden w-screen bg-gray-50 lg:block" />
         <div className="mx-auto max-w-prose text-base lg:grid lg:max-w-none lg:grid-cols-2 lg:gap-8">
           <div>
             <h2 className="text-lg font-semibold text-gray-600">Chi siamo</h2>
@@ -14,7 +14,9 @@ export default function OurStory() {
           </div>
         </div>
         <div className="mt-8 lg:grid lg:grid-cols-2 lg:gap-8">
-          <div className="relative lg:col-start-2 lg:row-start-1">
+          <div className="relative lg:col-start-2 lg:row-start-1 isolate ">
+            <Background />
+
             <svg
               className="absolute top-0 right-0 -mt-20 -mr-20 hidden lg:block"
               width={404}
@@ -81,10 +83,8 @@ export default function OurStory() {
                 qualificato.
               </p>
               <p className="text-lg text-gray-500">
-                I nostri clienti non sono solo numeri! Crediamo, infatti, che
-                solo esaminando ogni situazione con la giusta attenzione
-                possiamo rendere più semplice la gestione del rapporto con i
-                tuoi collaboratori familiari.
+                Contattaci senza impegno per sapere la soluzione più adatta a
+                te!
               </p>
             </div>
           </div>

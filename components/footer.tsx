@@ -2,7 +2,9 @@ const navigation = {
   main: [
     { name: "Servizi", href: "#services" },
     { name: "Chi siamo", href: "#ourstory" },
-    { name: "Contatti", href: "#contacts" },
+    { name: "Come funziona", href: "#how" },
+    { name: "Prezzi", href: "#prices" },
+    { name: "Contatti", href: "#contact" },
   ],
   social: [],
 };

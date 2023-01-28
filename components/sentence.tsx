@@ -1,12 +1,15 @@
+import { Background } from "./background";
+
 export default function Sentence() {
   return (
-    <div className="bg-white pt-16 lg:py-24">
+    <div className="bg-white pt-16 lg:py-24 relative isolate">
+      <Background />
       <div className="bg-sky-700 pb-16 lg:relative lg:z-10 lg:pb-0">
         <div className="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-cols-3 lg:gap-8 lg:px-8">
           <div className="relative lg:-my-8">
             <div
               aria-hidden="true"
-              className="absolute inset-x-0 top-0 h-1/2 bg-white lg:hidden"
+              className="absolute inset-x-0 top-0 h-1/2  lg:hidden"
             />
             <div className="mx-auto max-w-md px-6 sm:max-w-3xl lg:h-full lg:p-0">
               <div className="aspect-w-10 aspect-h-6 overflow-hidden rounded-xl shadow-xl sm:aspect-w-16 sm:aspect-h-7 lg:aspect-none lg:h-full">
@@ -37,14 +40,6 @@ export default function Sentence() {
                     tuoi collaboratori familiari.
                   </p>
                 </div>
-                <footer className="mt-6">
-                  <p className="text-base font-medium text-white">
-                    Angelica Funicello
-                  </p>
-                  <p className="text-base font-medium text-sky-100">
-                    AeFFe Consulenze
-                  </p>
-                </footer>
               </blockquote>
             </div>
           </div>
