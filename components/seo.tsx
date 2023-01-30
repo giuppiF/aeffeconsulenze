@@ -7,7 +7,7 @@ export const SEO = () => {
     "Offriamo una soluzione completa per la gestione amministrativa del lavoro domestico.";
 
   return (
-    <Head>
+    <>
       <title>{siteTitle}</title>
       <meta name="description" content={description} />
       <meta name="type" property="og:type" content="site" />
@@ -19,6 +19,6 @@ export const SEO = () => {
       <meta property="twitter:card" content="summary" />
       <meta property="twitter:title" content={siteTitle} />
       <meta property="twitter:description" content={description} />
-    </Head>
+    </>
   );
 };
