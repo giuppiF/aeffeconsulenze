@@ -67,9 +67,6 @@ export default function Prices() {
                 </div>
               </div>
               <div className="bg-gray-50 py-8 px-6 text-center lg:flex lg:flex-shrink-0 lg:flex-col lg:justify-center lg:p-12">
-                <p className="text-lg font-medium leading-6 text-gray-900">
-                  Prezzo unico
-                </p>
                 <div className="mt-4 flex items-end justify-center text-5xl font-bold tracking-tight text-gray-900">
                   <span>€ 300</span>
                   <span className="text-lg font-semibold leading-8 tracking-normal text-gray-500">
