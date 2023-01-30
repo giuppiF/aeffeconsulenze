@@ -70,9 +70,9 @@ export default function OurStory() {
                 domestico.
               </p>
               <p className="text-lg text-gray-500">
-                Ci avvaliamo della collaborazione di impiegate qualificate e di
-                consulenti del lavoro con esperienza ventennale, per fornirti la
-                competenza necessaria e soluzioni immediate alle tue
+                Ci avvaliamo della collaborazione di collaboratori qualificati e
+                di consulenti del lavoro con esperienza ventennale, per fornirti
+                la competenza necessaria e soluzioni immediate alle tue
                 problematiche.
               </p>
             </div>

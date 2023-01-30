@@ -49,6 +49,7 @@ export default function Contact() {
                   <div className="mt-1">
                     <dt className="sr-only">Whatsapp</dt>
                     <dd>+39 3758026800</dd>
+                    <dd>+39 3756267022</dd>
                   </div>
                 </dl>
               </div>
@@ -59,7 +60,9 @@ export default function Contact() {
                 <dl className="mt-2 text-base text-gray-50 ">
                   <div className="mt-1">
                     <dt className="sr-only">Skype</dt>
-                    <dd>AeFFe Consulenze</dd>
+                    <a href="skype:TUO_USERNAME?chat">
+                      <dd>AeFFe Consulenze</dd>
+                    </a>
                   </div>
                 </dl>
               </div>

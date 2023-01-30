@@ -19,7 +19,7 @@ export default function How() {
             È sufficiente un telefono o una mail per trasmetterci la
             documentazione necessaria agli adempimenti per la gestione del
             servizio. Puoi inviarci i documenti tramite il canale whatsapp del
-            vostro cellulare, o tramite mail.
+            tuo cellulare, o tramite mail.
           </p>
           <p className="mt-5 text-xl text-gray-50">
             Comunicaci la data in cui intendi ricevere il prospetto paga e lo
