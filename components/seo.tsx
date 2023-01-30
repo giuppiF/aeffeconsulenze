@@ -2,7 +2,7 @@ import Head from "next/head";
 
 export const SEO = () => {
   const siteTitle = "AeFFEe consulenze";
-  const image = "/small_logo_white.png";
+  const image = "/small_logo.png";
   const description =
     "Offriamo una soluzione completa per la gestione amministrativa del lavoro domestico.";
 
