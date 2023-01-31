@@ -20,8 +20,12 @@ export default function Contact() {
                 <dl className="mt-2 text-base text-gray-50">
                   <div className="mt-1">
                     <dt className="sr-only">Telefono</dt>
-                    <dd>+39 3758026800</dd>
-                    <dd>+39 3756267022</dd>
+                    <a href="tel:+393758026800">
+                      <dd>+39 3758026800</dd>
+                    </a>
+                    <a href="tel:+393756267022">
+                      <dd>+39 3756267022</dd>
+                    </a>
                   </div>
                 </dl>
               </div>
@@ -48,19 +52,34 @@ export default function Contact() {
                 <dl className="mt-2 text-base text-gray-50 ">
                   <div className="mt-1">
                     <dt className="sr-only">Whatsapp</dt>
-                    <dd>+39 3758026800</dd>
-                    <dd>+39 3756267022</dd>
+                    <a
+                      href="https://wa.me/393758026800"
+                      target={"_blank"}
+                      rel="noopener"
+                    >
+                      <dd>+39 3758026800</dd>
+                    </a>
+                    <a
+                      href="https://wa.me/393756267022"
+                      target={"_blank"}
+                      rel="noopener"
+                    >
+                      <dd>+39 3756267022</dd>
+                    </a>
                   </div>
                 </dl>
               </div>
               <div>
                 <h3 className="text-lg font-medium leading-6 text-gray-50 flex gap-1">
-                  <SkypeLogo className="w-7 h-7" /> Skype
+                  <SkypeLogo className="w-5 h-5" /> Skype
                 </h3>
                 <dl className="mt-2 text-base text-gray-50 ">
                   <div className="mt-1">
                     <dt className="sr-only">Skype</dt>
-                    <a href="skype:TUO_USERNAME?chat">
+                    <a
+                      href="https://join.skype.com/invite/NYudQb9IfHNY"
+                      target={"_blank"}
+                    >
                       <dd>AeFFe Consulenze</dd>
                     </a>
                   </div>

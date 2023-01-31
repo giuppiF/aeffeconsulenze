@@ -3,8 +3,7 @@ import { Background } from "./background";
 export default function Sentence() {
   return (
     <div className="bg-white pt-16 lg:py-24 relative isolate">
-      <Background />
-      <div className="bg-sky-700 pb-16 lg:relative lg:z-10 lg:pb-0">
+      <div className="z-40 bg-sky-700 pb-16 lg:relative lg:z-10 lg:pb-0">
         <div className="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-cols-3 lg:gap-8 lg:px-8">
           <div className="relative lg:-my-8">
             <div

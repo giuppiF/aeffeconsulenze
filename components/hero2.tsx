@@ -101,7 +101,7 @@ export default function Hero() {
               <div className="mt-8 flex gap-x-4 sm:justify-center">
                 <a
                   href="#services"
-                  className="inline-block rounded-lg bg-sky-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-sky-600 hover:bg-sky-700 hover:ring-sky-700"
+                  className="cursor-pointer inline-block rounded-lg bg-sky-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-sky-600 hover:bg-sky-700 hover:ring-sky-700"
                 >
                   I nostri servizi{" "}
                   <span className="text-sky-200" aria-hidden="true">
