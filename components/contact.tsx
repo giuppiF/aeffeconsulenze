@@ -55,14 +55,14 @@ export default function Contact() {
                     <a
                       href="https://wa.me/393758026800"
                       target={"_blank"}
-                      rel="noopener"
+                      rel="noopener noreferrer"
                     >
                       <dd>+39 3758026800</dd>
                     </a>
                     <a
                       href="https://wa.me/393756267022"
                       target={"_blank"}
-                      rel="noopener"
+                      rel="noopener noreferrer"
                     >
                       <dd>+39 3756267022</dd>
                     </a>
@@ -79,6 +79,7 @@ export default function Contact() {
                     <a
                       href="https://join.skype.com/invite/NYudQb9IfHNY"
                       target={"_blank"}
+                      rel="noopener noreferrer"
                     >
                       <dd>AeFFe Consulenze</dd>
                     </a>
