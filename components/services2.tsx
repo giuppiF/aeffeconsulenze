@@ -52,6 +52,15 @@ const features = [
     name: "Conteggi",
     description: "Conteggi per vertenze e risoluzioni consensuali.",
   },
+  {
+    name: "",
+    description: "Comunicazione di ospitalità verso la Pubbica Sicurezza.",
+  },
+  {
+    name: "",
+    description:
+      "Comunicazione di cessione di fabbricato verso la Pubblica Sicurezza.",
+  },
 ];
 
 export default function Services() {

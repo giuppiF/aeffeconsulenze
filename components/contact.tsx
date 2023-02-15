@@ -17,7 +17,7 @@ export default function Contact() {
                   <PhoneIcon width={24} />
                   Telefono
                 </h3>
-                <dl className="mt-2 text-base text-gray-50">
+                <dl className="mt-2 text-base text-gray-50 flex flex-col gap-2">
                   <div className="mt-1">
                     <dt className="sr-only">Telefono</dt>
                     <a href="tel:+393758026800">
@@ -26,6 +26,15 @@ export default function Contact() {
                     <a href="tel:+393756267022">
                       <dd>+39 3756267022</dd>
                     </a>
+                  </div>
+                  <div className="grid grid-cols-[auto_1fr] gap-1 w-fit">
+                    <div>lun-gio</div>
+                    <div className="justify-self-end">
+                      <div className="text-right">9.00-12.30</div>
+                      <div>14.30-17.30</div>
+                    </div>
+                    <div>ven</div>{" "}
+                    <div className="justify-self-end">9.00-13.00</div>
                   </div>
                 </dl>
               </div>
